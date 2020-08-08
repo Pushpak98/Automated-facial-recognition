@@ -8,7 +8,9 @@ Grayscale images of 15 subjects under 10 different conditions were obtained and 
 # Solution
 
 Given dataset includes 15 subjects with 10 pictures each.
+
 __Steps :__
+
 __*Data Preprocessing*__
 1. The images of the subject were read and transformed into a 100 by 100-pixel intensity matrix each.
 2. This intensity matrix was then converted to a vector of length 10000 and stored as a row in another
@@ -16,7 +18,9 @@ matrix ‘mat’.
 3. Each row in the matrix mat indicates the features of one picture of the subject, hence the size of the
 matrix mat is 10 x 10000.
 4. Each of the rows of the matrix mat is then normalized.
+
 __Computing svd__
+
 5. The normalized matrix is then decomposed using svd to identify and obtain characteristic features for
 each subject. Singular value decomposition factorizes a matrix into U, S, and V . We take the first
 eigenvalue (largest) from S, and the first columns of U and V to obtain a rank-one matrix ‘representative’
