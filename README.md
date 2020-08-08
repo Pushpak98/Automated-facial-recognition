@@ -8,6 +8,7 @@ Grayscale images of 15 subjects under 10 different conditions were obtained and 
 
 __Code__
 
-![alt text](https://ibb.co/yXFL1B4)
+![meta-chart](https://user-images.githubusercontent.com/55409875/89708457-fbbbd680-d994-11ea-923a-636c5b437598.png)
+
 
 
